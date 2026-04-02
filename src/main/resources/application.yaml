@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: OrderHub
+
+  datasource:
+    url: jdbc:h2:mem:orderdb
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+
+  h2:
+    console:
+      enabled: true
